@@ -10,7 +10,10 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.yuto0623.wordlessdiary"
+      "bundleIdentifier": "com.yuto0623.wordlessdiary",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "package": "com.yuto0623.wordlessdiary",
